@@ -152,7 +152,3 @@ backend-intern-crud.postman_collection.json
 You can import it into Postman to test all endpoints (with and without authentication).
 
 ---
-
-## 📜 License
-
-This project is for **educational purposes** as part of an internship assignment.
