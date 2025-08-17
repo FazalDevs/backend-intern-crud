@@ -14,8 +14,8 @@ A simple blog management system built with **FastAPI** that supports:
 
 1. **Authentication**
 
-   * User registration (`/api/auth/register`)
-   * User login (`/api/auth/login`) with JWT token
+   * User registration (`/auth/register`)
+   * User login (`/auth/login`) with JWT token
 
 2. **Blog Posts**
 
@@ -98,7 +98,7 @@ http://127.0.0.1:8000
 ## 🔑 Authentication
 
 All write operations (**POST**, **PUT**, **DELETE**) require authentication.
-Use the `/api/auth/login` endpoint to get a JWT token, and pass it in the header:
+Use the `/auth/login` endpoint to get a JWT token, and pass it in the header:
 
 ```
 Authorization: Bearer <your_token_here>
@@ -112,8 +112,8 @@ Authorization: Bearer <your_token_here>
 
 | Method | Endpoint             | Description         |
 | ------ | -------------------- | ------------------- |
-| POST   | `/api/auth/register` | Register a new user |
-| POST   | `/api/auth/login`    | Login and get token |
+| POST   | `/auth/register` | Register a new user |
+| POST   | `/auth/login`    | Login and get token |
 
 ### Posts
 
